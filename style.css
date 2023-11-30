@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.advicer{
+    height: 100vh;
+    width: 100%;
+    background-color: #18736D;
+    background-size: cover;
+    background-position: right;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ACECE8;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+}
+.logo{
+    left : 10px;
+    cursor: pointer;
+    background-image: url(group500.png);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 5%;
+    padding-right: 40px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+nav ul li a:hover{
+    color: white;
+    transition: .4s ;
+}
+nav ul li a i{
+    color: black;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.content h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 95px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+}
+.content h4{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-size: medium;
+    line-height: 5px;
+    margin-bottom: 28px;
+    letter-spacing: 3px;
+}
+.content a{
+    background-color: #092D43;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #092D43;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 5px;
+    transition: .2s;
+}
+.content a:hover{
+    background-color: transparent;
+}
+.Trusted{
+    margin-top:30px;
+    letter-spacing: 3px;
+
+}
+.main{
+    background-color: #CBF1EF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whatWeProvide{
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.whatWeProvide h1{
+    color: #18736D;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-family: montagu system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 60px;
+}
+.whatWeProvide h3{
+    font-weight: lighter;
+    margin-top: 30px;
+    line-height: 24px;
+}
+.aboutText{
+    display: flex;
+    align-items: center;
+}
+.box1{
+    height: 256px;
+    width: 387px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.box1 h3{
+    color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box1 .pra{
+    color: gray;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.box2{
+    height: 256px;
+    width: 387px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.box2 h3{
+    color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box2 .pra{
+    color: gray;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contact-me p{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    height: 60px;
+    width: 781px;
+    
+}
+.button-two{
+    background-color: #094B72;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #094B72;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .2s;
+}
+.button-two:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid #0D7377;
+    cursor: pointer;
+}
+.review{
+    background-color: #F2F7FF;
+    width: 100%;
+    padding: 40px 0px;
+}
+.title h2{
+    color: black;
+    font-family: montague system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    text-align: centre;
+    margin: 30px auto;
+    width: 350px;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 302px;
+    width: 540px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.reviewbutton{
+    background-color: #094B72;
+    color: white;
+    border: 2px solid #094B72;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .2s;
+    height: 64px;
+    width: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(730px);
+}
+.reviewbutton a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.reviewbutton:hover{
+    background-color: black;
+}
+
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: #18736D;
+    color: white;
+    display: flex;
+}
+.footer div{
+    text-align: left;
+}
+.col-1{
+    margin-right: 100px;
+}
+.col-1 .icons{
+    color: white;
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.col-1 .icons i{
+    margin: 15px;
+
+}
+.col-2{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company h2{
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.company ul{
+    list-style-type: none;
+    margin: 10px;
+}
+.company ul li{
+    margin: 30px;
+}
+.support h2{
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-align: center;
+    transform: translateY(23px);
+}
+.support ul{
+    list-style-type: none;
+    margin: 20px;
+
+}
+.support ul li{
+    margin: 30px;
+}
+
